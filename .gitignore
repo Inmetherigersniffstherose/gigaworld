@@ -13,8 +13,8 @@ venv/
 .ipynb_checkpoints/
 
 # Training artifacts
-data/
-datasets/
+/data/
+/datasets/
 checkpoints/
 outputs/
 runs/
