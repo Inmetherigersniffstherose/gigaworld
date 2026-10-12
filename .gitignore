@@ -1,0 +1,43 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+.ipynb_checkpoints/
+
+# Training artifacts
+data/
+datasets/
+checkpoints/
+outputs/
+runs/
+logs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Editors/system
+.vscode/
+.idea/
+.DS_Store
+
+# Large assets transferred separately
+/datasets/
+/experiments/
+/models/
+
+# Large ML artifacts anywhere
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
